@@ -1,0 +1,27 @@
+{
+  "name": "postgres-copy-bulk-insert",
+  "version": "1.0.0",
+  "description": "This repo analyzes performance of postgres copy and postgres bulk insert",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-rehman:Rehman-Akram/postgres-copy-bulk-insert.git"
+  },
+  "keywords": [
+    "portgres",
+    "copy operation",
+    "bulk insert",
+    "performance"
+  ],
+  "author": "Rehman Akram",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
