@@ -47,7 +47,7 @@ app.post('/dump-data-copy-operation', async (req, res) => {
     console.log("✅ COPY completed successfully.");
     console.log(`⏱️ Time elapsed: ${elapsedMs.toFixed(3)} ms (${(elapsedMs / 1000).toFixed(3)} seconds)`);
 
-    res.json({ status: "New file created" })
+    res.json({ status: "File dumped successfully" })
 
 })
 
@@ -127,7 +127,7 @@ app.post('/dump-data-batch-insert', async (req, res) => {
     console.log("✅ Bulk insert completed successfully.");
     console.log(`⏱️ Time elapsed: ${elapsedMs.toFixed(3)} ms (${(elapsedMs / 1000).toFixed(3)} seconds)`);
 
-    res.json({ status: "Bulk insert completed" });
+    res.json({ status: "File dumped successfully" });
 });
 
 
